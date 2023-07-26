@@ -37,7 +37,7 @@ export default function Home() {
         </Link> 
         <Link href="/breakfast"
         className="rounded-lg border border-gray-800 hover:border-gray-600 px-6 py-4 w-[250px] md:w-[300px]
-                  transition-colors hover:bg-[#f6dadf] block text-slate-700 hover:text-black"
+                  transition-colors hover:bg-[#f6dadf] block text-slate-700 hover:text-black "
         >
           <div className={`text-xl md:text-2xl font-semibold flex items-center justify-center gap-4 md:gap-6`}>
 
