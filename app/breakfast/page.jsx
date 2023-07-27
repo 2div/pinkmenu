@@ -1,16 +1,13 @@
 import React from 'react'
+import Breakfast from '../components/Breakfast'
 
-const page = () => {
+const breakfast = () => {
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-20">
-      
-    
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-           BREAKFAST MENU
-          </h2> 
-
+    <main className=" h-full w-full  p-10">
+        <Breakfast/>
     </main>
   )
 }
 
-export default page
+export default breakfast
