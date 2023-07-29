@@ -14,7 +14,7 @@ const Menu = ({ items }) => {
       const { id, title,titleAr,category, img, desc,descAr, price } = menuItem;
       return (
           <Link href={`/${category}`}>
-           
+           <div>
               <article key={id} className="p-1 flex items-center justify-center flex-col text-sm
               rounded-lg hover:border-gray-600 px-2 py-2 cursor-pointer
               transition-colors bg-gray-100 mb-5 text-slate-700 w-[230px] ">               
@@ -29,7 +29,7 @@ const Menu = ({ items }) => {
                   </header>
                 </div>
             </article>
-      
+            </div>
           </Link> 
         ) })}
      </div>      

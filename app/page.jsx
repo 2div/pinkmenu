@@ -16,7 +16,7 @@ export default function Home() {
             
           </div> 
         </Link> 
-        <Link href="/breakfast" className=" px-1 py-1 block text-slate-700 mb-3 text-sm ">
+        <Link href="/appetizers" className=" px-1 py-1 block text-slate-700 mb-3 text-sm ">
         <div className={` text-xl md:text-2xl font-semibold flex justify-between gap-4 md:gap-6 text-[#c59d5f]`}>
 
           <p>Appetizers / المقبلات</p>

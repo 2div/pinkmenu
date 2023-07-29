@@ -66,7 +66,7 @@ const menu = [
 
     category: 'Appetizers / المقبلات',
     price: 3.500,
-    img: './images/Chicken Quesadilla with Sweet Potatoes.jpg',
+    img: '/images/Chicken Quesadilla with Sweet Potatoes.jpg',
     desc: `TORTILLA BREAD, MIX RANCH CHIVES, DICED CHICKEN, BLACK OLIVES,
             MIX CAPSICUMS, CORN, MOZZARELLA CHEESE, POTATOES, ARUGULA,
             CARROTS, SIGNATURE SAUCE, SWEET POTATO FRIES`,
