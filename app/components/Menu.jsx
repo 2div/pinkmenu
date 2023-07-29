@@ -4,22 +4,16 @@ import SelectedItem from './SelectedItem'
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { redirect } from 'next/dist/server/api-utils';
-
-
 
 const Menu = ({ items }) => {
   const [showDesc,setShowDesc] = useState(false)
-
-
- 
   return (
-    
+
     <div className="">
       {items.map(menuItem => {
-      const { id, title,titleAr, img, desc,descAr, price } = menuItem;
+      const { id, title,titleAr,category, img, desc,descAr, price } = menuItem;
       return (
-          <Link href={`/breakfast/${title}`}>
+          <Link href={`/${category}`}>
            
               <article key={id} className="p-1 flex items-center justify-center flex-col text-sm
               rounded-lg hover:border-gray-600 px-2 py-2 cursor-pointer

@@ -59,21 +59,21 @@ const menu = [
     desc: `2 POUCHED EGG, MINCED BEEF, ASSORTED HERBS, SESAME SEED HOLLANDISE SAUCE `,
     descAr: ` ثلاث (3) بيض نصف سلق ، لحم بقري مفروم ، أعشاب متنوعة ، بذور السمسم ، صلصة هولانديز `,
   },
-//   {
-//     id: 7,
-//     title: 'CHICKEN QUESADILLA W/ SWEET POTATO',
-//     title: 'كاسادييا بالدجاج مع بطاطا حلوه',
+  {
+    id: 7,
+    title: 'CHICKEN QUESADILLA W/ SWEET POTATO',
+    title: 'كاسادييا بالدجاج مع بطاطا حلوه',
 
-//     category: 'APPETIZERS',
-//     price: 3.500,
-//     img: './images/Chicken Quesadilla with Sweet Potatoes.jpg',
-//     desc: `TORTILLA BREAD, MIX RANCH CHIVES, DICED CHICKEN, BLACK OLIVES,
-//             MIX CAPSICUMS, CORN, MOZZARELLA CHEESE, POTATOES, ARUGULA,
-//             CARROTS, SIGNATURE SAUCE, SWEET POTATO FRIES`,
-//     descAr: ` خبز تورتيلا ، ميكس رانش ثوم ، مكعبات دجاج ، زيتون أسود ، فليفلة
-//     مشكلة ، ذرة ، جبنة موزاريلا ، بطاطس ، جرجير ، جزر ، صلصة خاصة ،
-//     بطاطا حلوة`,
-//   },
+    category: 'Appetizers / المقبلات',
+    price: 3.500,
+    img: './images/Chicken Quesadilla with Sweet Potatoes.jpg',
+    desc: `TORTILLA BREAD, MIX RANCH CHIVES, DICED CHICKEN, BLACK OLIVES,
+            MIX CAPSICUMS, CORN, MOZZARELLA CHEESE, POTATOES, ARUGULA,
+            CARROTS, SIGNATURE SAUCE, SWEET POTATO FRIES`,
+    descAr: ` خبز تورتيلا ، ميكس رانش ثوم ، مكعبات دجاج ، زيتون أسود ، فليفلة
+    مشكلة ، ذرة ، جبنة موزاريلا ، بطاطس ، جرجير ، جزر ، صلصة خاصة ،
+    بطاطا حلوة`,
+  },
 //   {
 //     id: 8,
 //     title: 'VOLCANO BITES',
