@@ -10,25 +10,34 @@ export default function Home() {
         <Link href="/breakfast"
         className=" px-1 py-1 mb-3 block text-slate-700 text-sm "
         >
-          <div className={`text-xl md:text-2xl font-semibold flex justify-between gap-4 md:gap-6 text-[#c59d5f]`}>
+          <div className={`text-xl md:text-2xl font-semibold flex justify-between gap-4 md:gap-6  text-[#bb9965] hover:text-[#b48f57]`}>
 
             <p>Breakfast / الفطور</p>
             
           </div> 
         </Link> 
         <Link href="/appetizers" className=" px-1 py-1 block text-slate-700 mb-3 text-sm ">
-        <div className={` text-xl md:text-2xl font-semibold flex justify-between gap-4 md:gap-6 text-[#c59d5f]`}>
+        <div className={` text-xl md:text-2xl font-semibold flex justify-between gap-4 md:gap-6  text-[#bb9965] hover:text-[#b48f57]`}>
 
           <p>Appetizers / المقبلات</p>
         
         </div> 
         </Link> 
-        <Link href="/breakfast"
+        <Link href="/salads"
         className=" px-1 py-1 mb-3 block text-slate-700 text-sm "
         >
-          <div className={`text-xl md:text-2xl font-semibold flex items-center justify-center gap-4 md:gap-6 text-[#c59d5f]`}>
+          <div className={`text-xl md:text-2xl font-semibold flex items-center justify-center gap-4 md:gap-6 text-[#bb9965] hover:text-[#b48f57]` }>
 
             <p>Salads / السلطات</p>
+             
+          </div> 
+        </Link> 
+        <Link href="/burgers"
+        className=" px-1 py-1 mb-3 block text-slate-700 text-sm "
+        >
+          <div className={`text-xl md:text-2xl font-semibold flex items-center justify-center gap-4 md:gap-6 text-[#bb9965] hover:text-[#b48f57]`}>
+
+            <p>Burgers / البرجر</p>
              
           </div> 
         </Link> 

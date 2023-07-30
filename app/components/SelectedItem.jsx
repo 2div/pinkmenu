@@ -1,12 +1,13 @@
 
 import React from 'react';
 import Image from 'next/image';
+import items from './../data'
 
 
-const SelectedItem = ({ params }) => {
-
-  const { id, title,titleAr, img, desc,descAr, price } = params;
-  console.log(params.descAr)
+const SelectedItem = ({ id }) => {
+  const newItems = items.filter((id) => id === items.id);
+  const {img,title,titleAr,desc,descAr} = newItems
+  console.log(id)
 
   return (
     <div className="">
@@ -14,7 +15,7 @@ const SelectedItem = ({ params }) => {
             <article className="p-1 flex items-center justify-center flex-col text-sm
             rounded-lg hover:border-gray-600 px-2 py-2 cursor-pointer
             transition-colors bg-gray-100 mb-5 text-slate-700 w-[230px] ">         
-              <Image src={params.img} width={220}  height={220} alt="" className='mb-3 border-2'/>
+              <Image src={img} width={220}  height={220} alt="" className='mb-3 border-2'/>
               <div className="mx-2">
                 
                <div className='flex justify-center items-center flex-col'>

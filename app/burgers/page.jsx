@@ -1,13 +1,13 @@
 import React from 'react'
-import Appetizers from '../components/Appetizers'
+import Burgers from '../components/Burgers'
 
-const appetizers = () => {
+const burgers = () => {
 
   return (
     <main className="xs:flex xs:items-center xs:justify-center sm:grid md:grid-cols-2">
-        <Appetizers/>
+        <Burgers/>
     </main>
   )
 }
 
-export default appetizers
+export default burgers

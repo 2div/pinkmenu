@@ -1,9 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({ subsets: ['latin'], weight:['300','400'] })
 
 export const metadata = {
   title: 'Pinkuwait Los Angeles Food Menu',
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=' font-serif'>
+      <body className={roboto.className}>
       <div className="flex flex-col items-center justify-center mt-12">
         <Link href="/">
           <Image

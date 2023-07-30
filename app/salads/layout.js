@@ -10,12 +10,12 @@ export const metadata = {
 export default function BreakfastLayout({ children }) {
   return (
     <div>
-         <Link href="/breakfast" >
-          <div className={`flex justify-center items-center gap-1  text-[20px] md:text-3xl md:font-bold mt-12 mb-6 bg-[#bb9965] text-white
-             border-slate-300 py-1 px-2 cursor-pointer rounded-sm hover:shadow-sm hover:outline-none`}>
-            <p>Breakfast Menu</p>
+         <Link href="/salads" >
+          <div className={`flex justify-center items-center gap-1  text-[20px] md:text-3xl md:font-bold font-bold mt-12 mb-6 bg-rose-200
+             border-slate-300 py-1 px-2 cursor-pointer hover:bg-rose-200  rounded-sm hover:shadow-sm hover:outline-none`}>
+            <p>Salads Menu</p>
             <p>/</p>
-            <p>قائمة الفطور</p>
+            <p>قائمة السلطات</p>
           </div>  
         </Link>
         <div className='flex justify-center items-center'>

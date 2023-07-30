@@ -4,7 +4,7 @@ import Breakfast from '../components/Breakfast'
 const breakfast = () => {
 
   return (
-    <main className=" h-full w-full  p-10">
+    <main className="flex justify-center items-center">
         <Breakfast/>
     </main>
   )
