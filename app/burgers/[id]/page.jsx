@@ -9,7 +9,7 @@ const page = ({params}) => {
   const newData = items.map(x => Object.fromEntries(Object.entries(x).map(
     ([key, value]) => [key, typeof value == 'string' ? value.toLowerCase() : value])));
 
-  const newItems = newData[params.id - 1]
+  const newItems = newData[params.id]
 
   return (
     <div className="">
