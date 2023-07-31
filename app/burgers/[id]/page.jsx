@@ -1,12 +1,17 @@
+"use client"
+
 import React from 'react'
 import SelectedItem from '../../components/SelectedItem'
+import items from '../../data'
 
 
+const page = ({params}) => {
 
-const page = ({id}) => {
+  const newItems = items[params.id]
+
   return (
     <div className="">
-      <SelectedItem id={id}/>
+      <SelectedItem newItems={newItems}/>
     </div>
   );
 }

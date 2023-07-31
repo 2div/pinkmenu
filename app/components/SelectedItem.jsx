@@ -4,30 +4,32 @@ import Image from 'next/image';
 import items from './../data'
 
 
-const SelectedItem = ({ id }) => {
-  const newItems = items.filter((id) => id === items.id);
-  const {img,title,titleAr,desc,descAr} = newItems
-  console.log(id)
+const SelectedItem = ({ newItems }) => {
+  //const newItems = items.filter((id) => id === items.id);
+  const {img,title,titleAr,desc,descAr,price} = newItems
 
   return (
-    <div className="">
+    <div className="flex justify-center items-center">
          
             <article className="p-1 flex items-center justify-center flex-col text-sm
             rounded-lg hover:border-gray-600 px-2 py-2 cursor-pointer
-            transition-colors bg-gray-100 mb-5 text-slate-700 w-[230px] ">         
-              <Image src={img} width={220}  height={220} alt="" className='mb-3 border-2'/>
+            transition-colors bg-gray-100 mb-12 text-slate-700 w-[230px] min-[400px]:w-[350px] min-[600px]:w-[450px]  ">         
+              <Image src={img} width={220} height={220} alt="" layout='responsive' className='mb-3 border-2 '/>
               <div className="mx-2">
                 
                <div className='flex justify-center items-center flex-col'>
-                    <p className='pb-2'>{title}</p>
+                    <p className='pb-2 lowercase'>{title}</p>
                     <p className='pb-2 '>{titleAr}</p>
                </div>
-               <div className='descs'>
-                <p className="item-text">{desc}</p>
-                <p className="item-text">{descAr}</p>
+               <div className=''>
+                <p className="item-text pb-2 lowercase  px-2">{desc}</p>
+                <p className="item-text pb-2 min-[401px]:hidden  px-2">-----------------------------------------------</p>
+                <p className="item-text pb-2 min-[402px]:display max-[401px]:hidden min-[601px]:hidden  px-2">----------------------------------------------------------------------------</p>
+                <p className="item-text pb-2 min-[602px]:display  max-[601px]:hidden  px-2">----------------------------------------------------------------------------------------------------</p>
+                <p className="item-text pb-2 px-2">{descAr}</p>
               </div>
                <header>
-                  <h4 className="flex justify-center items-center text-[#c59d5f] font-semibold">KD{price?.toFixed(3)}</h4>
+                  <h4 className="flex justify-center items-center text-[#c59d5f] font-semibold pb-3 min-[400px]:text-[15px] min-[600px]:text-[16px]">KD {price?.toFixed(3)}</h4>
                 </header>
             </div>
 
