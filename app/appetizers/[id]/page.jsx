@@ -5,9 +5,10 @@ import SelectedItem from '../../components/SelectedItem'
 import items from '../../data'
 
 const page = ({params}) => {
-  
+  const newData = items.map(x => Object.fromEntries(Object.entries(x).map(
+    ([key, value]) => [key, typeof value == 'string' ? value.toLowerCase() : value])));
 
-  const newItems = items[params.id - 1]
+  const newItems = newData[params.id - 1]
 
   return (
     <div className="">
