@@ -18,7 +18,7 @@ const menu = [
     category: 'Breakfast/الفطور',
     price: 3.500,
     img: '/images/Berries-French-Toast.jpg',
-    desc: 'FRENCH TOAST, MIX BERRIES, MAPLE ..................................................',
+    desc: 'FRENCH TOAST, MIX BERRIES, MAPLE ',
     descAr: `توست فرنسي ، توت مشكل ، مابل سيريب`,
   },
  {

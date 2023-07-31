@@ -6,6 +6,7 @@ import items from './../data'
 
 const SelectedItem = ({ newItems }) => {
   //const newItems = items.filter((id) => id === items.id);
+  
   const {img,title,titleAr,desc,descAr,price} = newItems
 
   return (
@@ -18,11 +19,11 @@ const SelectedItem = ({ newItems }) => {
               <div className="mx-2">
                 
                <div className='flex justify-center items-center flex-col'>
-                    <p className='pb-2 lowercase'>{title}</p>
+                    <p className='pb-2 capitalize '>{title}</p>
                     <p className='pb-2 '>{titleAr}</p>
                </div>
                <div className=''>
-                <p className="item-text pb-2 lowercase  px-2">{desc}</p>
+                <p className="item-text pb-2 capitalize  px-2">{desc}</p>
                 <p className="item-text pb-2 min-[401px]:hidden  px-2">-----------------------------------------------</p>
                 <p className="item-text pb-2 min-[402px]:display max-[401px]:hidden min-[601px]:hidden  px-2">----------------------------------------------------------------------------</p>
                 <p className="item-text pb-2 min-[602px]:display  max-[601px]:hidden  px-2">----------------------------------------------------------------------------------------------------</p>

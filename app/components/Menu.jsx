@@ -9,11 +9,13 @@ import { useRouter } from 'next/navigation';
 
 
 const Menu = ({ items }) => {
+  let newData = items.map(x => Object.fromEntries(Object.entries(x).map(
+    ([key, value]) => [key, typeof value == 'string' ? value.toLowerCase() : value])));
  
    return (
 
     <div className="grid grid-cols-1 min-[600px]:grid-cols-2 gap-3">
-      {items.map(menuItem => {
+      {newData.map(menuItem => {
       const { id, title,titleAr,category, img, desc,descAr, price,categoryEn } = menuItem;
 
       return (
@@ -26,7 +28,7 @@ const Menu = ({ items }) => {
                   <div className="mx-2">
                     <header>
                       <div className='flex justify-center items-center flex-col'>
-                        <p className='pb-2 lowercase'>{title}</p>
+                        <p className='pb-2 capitalize'>{(title)}</p>
                         <p className='pb-2 '>{titleAr}</p>
                       </div>
                       <h4 className="flex justify-center items-center text-[#c59d5f] font-semibold">KD{price.toFixed(3)}</h4>
