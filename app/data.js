@@ -200,7 +200,7 @@ const menu = [
     categoryEn: 'salads',
     category: 'Salads / السلطات',
     price: 3.750,
-    img: '/images/salads/Caesar Salad.jpg',
+    img: '/images/salads/Caesar-Salad.jpg',
     desc: `LETTUCE, BLACK OLIVE, CROUTONS, RANCH, PARMESAN CHEESE`,
     descAr: `خس ، زيتون أسود ، خبز محمص ، رانش ، جبنة بارميزان`,
   },
@@ -211,7 +211,7 @@ const menu = [
     categoryEn: 'salads',
     category: 'Salads / السلطات',
     price: 3.750,
-    img: '/images/salads/Powerhouse Quinoa Salad.jpg',
+    img: '/images/salads/Powerhouse-Quinoa-Salad.jpg',
     desc: `ROCCA, QUINOA, CORN, EDAMAME, AVOCADO, CRANBERRIES,
           PARSLEY, ALMONDS, FETA CHEESE`,
     descAr: `جرجير ، كينوا ، ذرة ، ادامامي ، افوكادو ، توت بري ، بقدونس ، لوز ،
@@ -224,7 +224,7 @@ const menu = [
     categoryEn: 'salads',
     category: 'Salads / السلطات',
     price: 3.750,
-    img: '/images/salads/Beetroot Salad.jpg',
+    img: '/images/salads/Beetroot-Salad.jpg',
     desc: `ROCCA, FRESH BEETROOT, SPINACH, FETA CHEESE, POMEGRANATE,
     PINE NUTS, BALSAMIC VINAIGRETTE`,
     descAr: `جرجير ، شمندر طازج ، سبانخ ، جبنة فيتا ، رمان ، صنوبر ، خل بلسميك`,
@@ -249,7 +249,7 @@ const menu = [
     categoryEn: 'salads',
     category: 'Salads / السلطات',
     price: 3.750,
-    img: '/images/salads/Spicy Crab Salad.jpg',
+    img: '/images/salads/Spicy-Crab-Salad.jpg',
     desc: `CARROTS, CUCUMBER, MANGO, CABBAGE, SWEET SPICY MAYO
     SAUCE, SHREDDED ICEBERG LETTUCE, CRAB SHREDDED, AVOCADO`,
     descAr: `جزر ، خيار ، مانجو ، ملفوف ، صوص مايو حار حلو ، خس ايسبيرج
@@ -262,7 +262,7 @@ const menu = [
     categoryEn: 'salads',
     category: 'Salads / السلطات',
     price: 3.750,
-    img: '/images/salads/Peacan & Strawberry salad.jpg',
+    img: '/images/salads/Peacan-Strawberry-salad.jpg',
     desc: `ARUGULA, BABY SPINACH, LOLO ROSSO, FRESH STRAWBERRY,
           JACKFRUIT, ROASTED PECAN, FETA CHEESE, PARMESAN CHIPS, FRESH
           ORANGE JUICE, FRESH LEMON JUICE, DIJON MUSTARD, HONEY,
@@ -278,7 +278,7 @@ const menu = [
     categoryEn: 'salads',
     category: 'Salads / السلطات',
     price: 3.250,
-    img: '/images/salads/Caesar Salad classic.jpg',
+    img: '/images/salads/Caesar-Salad-classic.jpg',
     desc: `LETTUCE ROMAINE, CAESAR DRESSING, GARLIC CROUTON, PARMESAN
     CHEESE, GRILLED CHICKEN, MAYONNAISE, YELLOW MUSTARD, WHITE
     VINEGAR, GARLIC, CAPERS ANCHOVIES`,
@@ -304,7 +304,7 @@ const menu = [
      categoryEn: 'burgers',
     category: 'Burgers / برجر',
     price: 3.750,
-    img: '/images/burgers/Classic Los Angeles.jpg',
+    img: '/images/burgers/Classic-Los-Angeles.jpg',
     desc: `PATTY, CARAMELIZED ONION, MUSTARD, CHEESE, PICKLES, LETTUCE, 
     TOMATO, SPECIAL SAUCE`,
     descAr: `شريحة لحم ، بصل مكرمل ، خردل ، جبنة ، مخلل ، خس ، طماطم ،
@@ -317,7 +317,7 @@ const menu = [
      categoryEn: 'burgers',
     category: 'Burgers / برجر',
     price: 4.500,
-    img: '/images/burgers/Grill Chicken Burger.jpg',
+    img: '/images/burgers/Grill-Chicken-Burger.jpg',
     desc: `CHICKEN, MUSTARD, CHEESE, PICKLES, ONIONS, LETTUCE, TOMATOES, 
     SPECIAL SAUCE`,
     descAr: `دجاج ، بصل ، خردل ، جبنة ، مخلل ، خس ، طماطم ، صوص خاصة`,
@@ -329,7 +329,7 @@ const menu = [
      categoryEn: 'burgers',
     category: 'Burgers / برجر',
     price: 3.500,
-    img: '/images/burgers/Classic-Crunchy-Chicken-.jpg',
+    img: '/images/burgers/Classic-Crunchy-Chicken.jpg',
     desc: `CRISPY CHICKEN BREAST, RED CABBAGE, CARROTS, LETTUCE, 
     PICKLES, CHEESE, YUMMY SAUCE`,
     descAr: `صدر دجاج مقرمش ، ملفوف أحمر ، جزر ، خس ، مخلل ، جبن ، صلصة لذيذة`,
