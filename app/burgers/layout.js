@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import Image from 'next/image'
 
 export const metadata = {
   title: 'Burger Menu',
@@ -10,8 +8,6 @@ export const metadata = {
 export default function BreakfastLayout({ children }) {
   return (
     <div>
-         
-        
         {children}
     </div>
  

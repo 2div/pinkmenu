@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { BsArrowReturnLeft } from 'react-icons/bs';
-import Image from 'next/image'
 
 export const metadata = {
   title: 'Burger Menu',

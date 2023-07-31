@@ -3,9 +3,7 @@
 import React from 'react'
 import SelectedItem from '../../components/SelectedItem'
 import items from '../../data'
-import { BsArrowReturnLeft } from 'react-icons/bs';
-import { useRouter } from 'next/navigation'
-import Link from 'next/link'
+
 
 const page = ({params}) => {
 

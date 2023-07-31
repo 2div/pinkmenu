@@ -1,6 +1,5 @@
 "use client"
 
-import Link from 'next/link';
 import items from '../data'
 import Menu from './Menu';
 

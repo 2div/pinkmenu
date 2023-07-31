@@ -3,9 +3,6 @@
 import React from 'react'
 import SelectedItem from '../../components/SelectedItem'
 import items from '../../data'
-import { useRouter } from 'next/navigation'
-import Link from 'next/link'
-
 
 const page = ({params}) => {
   const newData = items.map(x => Object.fromEntries(Object.entries(x).map(
