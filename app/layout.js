@@ -15,10 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-      <div className="flex flex-col items-center justify-center mt-12">
+      <div className="flex flex-col items-center justify-center my-24">
         <Link href="/">
           <Image
-           
             src="/pinklogo.svg"
             alt="Pinkuwait Logo"
             width={180}

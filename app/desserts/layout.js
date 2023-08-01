@@ -2,15 +2,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'Salads Menu',
+  title: 'Desserts',
   description: 'https://pinkuwait.com/ Food Menu',
 
 }
 
-export default function SaladsLayout({ children }) {
+export default function DessertsLayout({ children }) {
   return (
-    <div>
-         
+    <div> 
         {children}
     </div>
  

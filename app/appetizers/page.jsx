@@ -7,15 +7,14 @@ const appetizers = () => {
 
   return (
     <main className="flex flex-col justify-center items-center">
-      <Link href="/appetizers" >
-      <div className={`flex justify-center items-center gap-1  text-[20px] md:text-3xl md:font-bold mt-12 mb-6 bg-[#bb9965] text-white
-             border-slate-300 py-1 px-2 cursor-pointer rounded-sm hover:shadow-sm hover:outline-none`}>
-            <p>Appetizers Menu</p>
-            <p>/</p>
-            <p>قائمة المقبلات</p>
-          </div>  
-        </Link>
-        
+        <div className={`flex justify-center items-center gap-1 text-[20px] md:text-3xl md:font-bold mt-12 mb-6 
+              border-slate-300 py-1 px-2 rounded-sm hover:shadow-sm hover:outline-none`}>
+              <div className='flex text-[22px] leading-10 min-[400px]:text-2xl min-[400px]:gap-2 gap-1 px-3 py-2 rounded-md bg-[#bb9965] text-white'>
+                <p>Appetizers Menu</p>
+                <p>/</p>
+                <p>قائمة المقبلات</p>
+              </div>
+        </div>  
         <div className='flex flex-col justify-center items-center my-3'>
         <Link href="/" className=" px-1 py-1 mb-3 block text-slate-700 text-sm " >
         <div className={` flex justify-normal items-center text-xl md:text-2xl font-semibold md:gap-6
