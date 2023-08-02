@@ -33,7 +33,7 @@ export default function Home() {
           </div> 
         </Link> 
         <Link href="/burgers"
-        className=" px-1 py-1 mb-3 block text-slate-700 text-sm "
+        className=" px-1 py-1 mb-3 block text-slate-700 text-sm"
         >
           <div className='text-xl md:text-2xl font-semibold flex justify-between gap-4 md:gap-6 mt-2 text-[#bb9965] hover:text-[#b48f57]'>
 
